@@ -4,9 +4,9 @@
 
  **个人博客开源项目** 
 
- **首页地址为：https://www.nmyswls.com** 
+ **首页地址为：https://localhost:8080** 
 
- **后台管理：https://www.nmyswls.com/admin/login** 
+ **后台管理：https://localhost:8080/admin/login** 
 
 #### 软件架构
 
@@ -23,7 +23,6 @@
 
 #### 安装教程
 
-0. 首先查看[wiki](https://gitee.com/beijinglogic/MyStory/wikis/%E5%8D%9A%E5%AE%A2%E7%BA%BF%E4%B8%8A%E9%83%A8%E7%BD%B2%E7%BB%88%E6%9E%81%E6%95%99%E7%A8%8B?sort_id=1319273)
 1. 需要jdk1.8+
 2. maven环境，熟悉springboot
 3. down代码到本地
@@ -36,7 +35,6 @@
    - BUCKET：是七牛存储的空间名字
    - 文章图片地址：因为七牛没有文件夹系统，但可以分层，这个地址就是除了domain，后面自己定义的名字，也该有斜杠
    - 其它图片地址：暂时可以不填 
-8. 如果部署到Linux或者安装过程中碰到问题，请加技术交流(4060038)
 
 #### 说明
 1. 最近深受百度统计的困扰特来说明，一定要把header中的百度统计代码替换成自己的
@@ -81,12 +79,3 @@
 - JDK: `JAVA 8`
 - WEB容器: `Tomcat8+ （采用springboot框架开发时,并没有用到额外的tomcat 用的框架自带的）`
 
-> QQ群：4060038
-
-> 邮箱：zhangjianbing777@163.com
-
-#### 使用说明
-
-**分享技术，品味人生。欢迎fork，喜欢的话，给个star呗!**
-
-  [1]: https://www.nmyswls.com/article/32/1
